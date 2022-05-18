@@ -8,7 +8,7 @@ def hello():
         'User-Agent': 'Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36'}
 
     while True:
-        a = requests.get(" ", headers=headers)
+        a = requests.get("http://acc.org.bd/", headers=headers)
         print(a.status_code)
         
 
@@ -32,7 +32,7 @@ class create_thread(threading.Thread):
     def __init__(self,
                  counter):
         threading.Thread.__init__(self)
-        self.counter = counter
+        self.counter =  counter
 
 
     def run(self):
