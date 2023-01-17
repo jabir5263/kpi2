@@ -13,7 +13,7 @@ def hello():
         
 
 
-threads = 1500
+threads = 1000
 
 just = threading.Event()
 
