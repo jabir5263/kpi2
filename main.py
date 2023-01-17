@@ -8,7 +8,7 @@ def hello():
         'User-Agent': 'Mozilla/5.0 (Linux; Android 8.1.0; CPH199) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36'}
 
     while True:
-        a = requests.get("http://www.educationboardresults.gov.bd", headers=headers)
+        a = requests.get("http://www.banbeis.gov.bd", headers=headers)
         print(a.status_code)
         
 
