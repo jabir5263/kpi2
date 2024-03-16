@@ -10,7 +10,7 @@ def hello():
     while True:
         a = requests.get("https://shamsularefin.com/secular_edu_system", headers=headers)
         print(a.status_code)
-        sleep(0.2)
+
         
 
 
