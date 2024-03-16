@@ -8,8 +8,9 @@ def hello():
         'User-Agent': 'Mozilla/5.0 (Linux; Android 8.1.0; CPH199) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36'}
 
     while True:
-        a = requests.get("https://tmt.edu.bd/", headers=headers)
+        a = requests.get("https://shamsularefin.com/secular_edu_system", headers=headers)
         print(a.status_code)
+       sleep(0.2)
         
 
 
